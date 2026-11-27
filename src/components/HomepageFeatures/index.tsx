@@ -48,10 +48,10 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'WhatsApp',
-    to: '/docs/integrations/whatsapp',
+    title: 'Channels',
+    to: '/docs/category/channels',
     description:
-      'Bring WhatsApp conversations into CallVibe with a simple webhook and message events.',
+      'Bring calls, WhatsApp, email, and meetings into CallVibe, and see how each one connects.',
     icon: (
       <svg {...iconProps}>
         <path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.1-5.4A8.5 8.5 0 1 1 21 11.5Z" />
@@ -87,7 +87,7 @@ const FeatureList: FeatureItem[] = [
     title: 'API Reference',
     to: '/docs/api/overview',
     description:
-      'Endpoint groups, authentication model, and webhook patterns for building on top of CallVibe.',
+      'Endpoint groups and webhook patterns for building on top of CallVibe.',
     icon: (
       <svg {...iconProps}>
         <path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 4l-4 16" />

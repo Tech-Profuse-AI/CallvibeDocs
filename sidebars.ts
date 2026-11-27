@@ -30,6 +30,23 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Channels',
+      link: {
+        type: 'generated-index',
+        title: 'Channels',
+        description:
+          'Bring calls, WhatsApp, email, and meetings into CallVibe, and learn how to use each one.',
+        slug: '/category/channels',
+      },
+      items: [
+        'channels/calls',
+        'channels/whatsapp',
+        'channels/email',
+        'channels/meetings',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Integrations',
       link: {
         type: 'generated-index',
@@ -78,7 +95,6 @@ const sidebars: SidebarsConfig = {
             'integrations/crm/leadsquared',
           ],
         },
-        'integrations/whatsapp',
         'integrations/providers/manual-upload',
       ],
     },
@@ -95,6 +111,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'admin/settings-overview',
         'admin/team-management',
+        'admin/meeting-recorder',
         'admin/notifications',
         'admin/customer-management',
         'admin/lead-statuses',

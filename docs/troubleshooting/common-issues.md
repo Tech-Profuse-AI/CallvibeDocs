@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Common Issues
-description: Fix common CallVibe issues — worker not starting, no calls arriving, agent access problems, pushed calls needing metadata, missing WhatsApp messages, and sign-in or password problems.
+description: Fix common CallVibe issues — worker not starting, no calls arriving, agent access problems, pushed calls needing metadata, missing WhatsApp messages, emails, or meetings, and sign-in or password problems.
 ---
 
 # Common Issues
@@ -77,6 +77,22 @@ See [API Overview](../api/overview.md#push-calls-webhook) for the required field
 1. Verify webhook URL matches tenant.
 2. Confirm provider is sending message:new events.
 3. Re-copy webhook URL from the WhatsApp card in Integrations.
+4. If you use TimelinesAI, check it is set up as a WhatsApp provider.
+
+## Emails not appearing
+
+1. Open Settings > Integrations > Email providers and check Ascendia shows as connected.
+2. Check the connection key and the URL in Ascendia match the ones shown in CallVibe. If you generated a new key, the old one stops working.
+3. Check the **Email** page filters (Period, Status, Mailbox, Agent).
+4. A conversation with only your own team, or from a sender you chose to skip, is hidden or not analysed. Check Email settings in Integrations.
+
+## Meetings not appearing
+
+1. For Fireflies, check the API key is saved and the URL and signing secret are pasted in Fireflies. Select **Import last 30 days** to catch up.
+2. For the CallVibe Recorder, check the extension shows as connected. Recording only works while it is connected to your account.
+3. Check the owner has not turned off the platform you used in Settings > Meeting recorder.
+4. Zoom always needs you to click **Record**. Google Meet and Teams record by themselves only if your owner turned that on.
+5. Check the **Meetings** page filters. A meeting with only your team is kept but not analysed.
 
 ## Password reset problems
 

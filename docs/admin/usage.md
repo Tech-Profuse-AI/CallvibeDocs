@@ -16,7 +16,7 @@ Usage & Limits shows your AI processing wallet. Every call the AI analyzes uses 
 
 ## Plan Types
 
-- **Unlimited plan:** No AI processing limit. Every call and WhatsApp chat is analyzed. The page shows the total minutes used all time.
+- **Unlimited plan:** No AI processing limit. Every call, WhatsApp chat, email, and meeting is analyzed. The page shows the total minutes used all time.
 - **Wallet plan:** A fixed balance of minutes. The page shows your balance remaining and a usage bar.
 
 ## Wallet Figures
@@ -37,6 +37,7 @@ The top bar also shows your minutes left, for example "154 min left". It changes
 ## How AI Minutes Are Counted
 
 - Every call is billable and counted toward your minutes.
+- Meetings are counted by their length, the same way as calls.
 - Unused minutes roll over. Your balance never resets automatically.
 - Unrecorded calls (no audio file) are never counted.
 

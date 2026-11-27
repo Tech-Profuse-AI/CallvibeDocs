@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Integrations Overview
 
-CallVibe supports tenant-scoped vendor integrations with centralized worker orchestration.
+CallVibe supports tenant-scoped vendor integrations with centralized worker orchestration. Use it to connect your calls, WhatsApp, email, and meetings.
 
 <ThemedImage
   alt="Integrations overview page"
@@ -96,7 +96,12 @@ If a figure shows a dash, CallVibe could not check it. A dash never means zero.
 
 ## Supported Providers
 
+The Integrations page groups providers into Call providers, WhatsApp providers, Email providers, Meeting providers, and CRM.
+
+**Call providers**
+
 - SalesTrail: API key
+- MobileCRM: API key
 - Smartflo: API key
 - Exotel: API key, API token, account SID, region
 - Kaleyra: API key
@@ -106,14 +111,29 @@ If a figure shows a dash, CallVibe could not check it. A dash never means zero.
 - Callyzer: API access key
 - Bonvoice: API token
 - Zoom Phone: Account ID, Client ID, Client secret
-- WhatsApp: webhook URL and message:new events
-- Incoming webhook: a webhook secret, to send calls from any phone system. See the [API Overview](../api/overview.md#push-calls-webhook)
+- Incoming webhook: send calls from any phone system. See the [API Overview](../api/overview.md#push-calls-webhook)
 - Upload Center: nothing to connect. See [Upload Center](./providers/manual-upload.md)
+
+**WhatsApp providers**
+
+- WhatsApp (WATeams) and TimelinesAI: copy your webhook URL into the provider
+
+**Email providers**
+
+- Ascendia: generate a connection key and paste it, with the webhook URL, in Ascendia
+
+**Meeting providers**
+
+- Fireflies: API key, plus a webhook URL and signing secret to paste in Fireflies. A notetaker that joins your meetings
+- CallVibe Recorder: our own Chrome extension. It records your meeting audio without a bot joining. Install it, select **Connect to CallVibe**, and approve the browser. Owners set its rules in [Meeting Recorder](../admin/meeting-recorder.md)
+
+See [Channels](/docs/category/channels) for the setup steps of calls, WhatsApp, email, and meetings.
 
 ## Supported CRMs
 
 - GHL CRM: Location ID, Private Integration Token
 - LeadSquared: Access key, Secret key, region
+- Customizable CRM: connect your own CRM to receive your calls
 
 ## Worker Behavior
 

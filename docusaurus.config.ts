@@ -76,7 +76,7 @@ const config: Config = {
     announcementBar: {
       id: 'whatsapp_intelligence',
       content:
-        'New: bring WhatsApp conversations into CallVibe — <a href="/docs/integrations/whatsapp">see the guide</a>.',
+        'New: bring calls, WhatsApp, email, and meetings into CallVibe — <a href="/docs/category/channels">see the guide</a>.',
       isCloseable: true,
     },
     navbar: {
@@ -100,13 +100,23 @@ const config: Config = {
         },
         {
           type: 'dropdown',
+          label: 'Channels',
+          position: 'left',
+          items: [
+            { to: '/docs/channels/calls', label: 'Calls' },
+            { to: '/docs/channels/whatsapp', label: 'WhatsApp' },
+            { to: '/docs/channels/email', label: 'Email' },
+            { to: '/docs/channels/meetings', label: 'Meetings' },
+          ],
+        },
+        {
+          type: 'dropdown',
           label: 'Integrations',
           position: 'left',
           items: [
             { to: '/docs/integrations/overview', label: 'Overview' },
             { to: '/docs/category/telephony', label: 'Telephony' },
             { to: '/docs/category/crm', label: 'CRM' },
-            { to: '/docs/integrations/whatsapp', label: 'WhatsApp' },
             {
               to: '/docs/integrations/providers/manual-upload',
               label: 'Upload Center',
@@ -160,7 +170,7 @@ const config: Config = {
           title: 'Integrations',
           items: [
             { label: 'Overview', to: '/docs/integrations/overview' },
-            { label: 'WhatsApp', to: '/docs/integrations/whatsapp' },
+            { label: 'Channels', to: '/docs/category/channels' },
             { label: 'GoHighLevel', to: '/docs/integrations/crm/ghl' },
             { label: 'LeadSquared', to: '/docs/integrations/crm/leadsquared' },
           ],

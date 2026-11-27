@@ -31,7 +31,7 @@ const roles: RolePath[] = [
   {
     role: 'Developers',
     blurb:
-      'Explore the API, authentication model, and webhooks to build on top of CallVibe.',
+      'Explore the API and webhooks to build on top of CallVibe.',
     cta: 'Read the API reference',
     to: '/docs/api/overview',
   },
@@ -98,7 +98,7 @@ const integrationGroups: IntegrationGroup[] = [
     label: 'Messaging & Upload',
     to: '/docs/integrations/overview',
     items: [
-      { name: 'WhatsApp', to: '/docs/integrations/whatsapp' },
+      { name: 'Channels', to: '/docs/category/channels' },
       { name: 'Upload Center', to: '/docs/integrations/providers/manual-upload' },
     ],
   },

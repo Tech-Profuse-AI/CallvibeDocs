@@ -127,6 +127,14 @@ Click Browse templates for ready-made insights. There are over 100, across 16 in
   dark="/img/ai-insights-templates-dark.jpg"
 />
 
+## Meeting Insights
+
+Meetings have their own insights, set up the same way as call insights. Switch to the Meetings channel on the AI Insights page to see them.
+
+- Meeting insights use the same types: Free text, Dropdown, and Scoring.
+- The category is the **meeting type**.
+- Meeting types have no notification criteria, because meetings do not send alerts.
+
 ## Top Layer and Groups
 
 Open the **Top layer & groups** tab to organize your insights. It has three parts: Top layer, Scorecards, and Classification groups.

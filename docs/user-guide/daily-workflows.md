@@ -9,7 +9,7 @@ description: Daily CallVibe workflows for sales managers, team leads, and admins
 ## Sales or Ops Manager
 
 1. Open Overview for rate and volume changes.
-2. Review open Follow-ups, including missed callbacks.
+2. Review open Follow-ups, including missed callbacks, and chats or emails waiting for a reply.
 3. Open Outlook for patterns across a period, or Intelligence for call quality scores.
 4. Assign follow-up priorities.
 
@@ -19,6 +19,8 @@ description: Daily CallVibe workflows for sales managers, team leads, and admins
 2. Review call summaries and customer context.
 3. Use Intelligence and Performance for coaching signals.
 4. Use Ask to query the assistant from where you are.
+5. Open WhatsApp and Email and look for conversations where the customer is waiting for a reply.
+6. Open Meetings to review key points and action items.
 
 ## Admin
 

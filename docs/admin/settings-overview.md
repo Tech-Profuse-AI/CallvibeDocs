@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Settings
-description: Configure your CallVibe tenant from Settings — integrations, manual upload, AI insights, lead statuses, custom fields, marketing sources, preferences, notifications, and usage limits.
+description: Configure your CallVibe tenant from Settings — integrations, manual upload, meeting recorder, AI insights, lead statuses, custom fields, marketing sources, preferences, notifications, and usage limits.
 ---
 
 # Settings
@@ -18,12 +18,13 @@ Settings is the configuration hub for your tenant. It's a set of cards, grouped 
 
 **1. Get your data in**
 
-- **Integrations:** Connect your phone system, WhatsApp, and CRMs (GHL, LeadSquared).
+- **Integrations:** Connect your phone system, WhatsApp, email, meeting providers, and CRMs (GHL, LeadSquared, or a customizable CRM). Email settings and the Email and Meeting team lists are on this page too.
 - **Manual Upload:** Add recordings by hand for calls your phone system never saw.
+- **Meeting Recorder:** Set the rules for the CallVibe Recorder Chrome extension and manage connected browsers. See [Meeting Recorder](./meeting-recorder.md).
 
 **2. What the AI extracts**
 
-- **AI Insights Setup:** Set up call categories, extraction fields, and call scoring.
+- **AI Insights Setup:** Set up categories, extraction fields, and scoring for calls and for meetings.
 
 **3. Pipeline**
 

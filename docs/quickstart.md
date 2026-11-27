@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Quickstart
-description: "Set up CallVibe fast: create your organization account, connect a telephony or WhatsApp integration, start the worker, and validate call data flow."
+description: "Set up CallVibe fast: create your organization account, connect a channel (calls, WhatsApp, email, or meetings), start the worker, and validate call data flow."
 ---
 
 # Quickstart
@@ -28,9 +28,11 @@ Open Settings > Integrations and connect one provider:
 - A telephony provider such as SalesTrail, Smartflo, Exotel, Kaleyra, 8x8, Zadarma, RingCentral, Callyzer, Bonvoice, or Zoom Phone
 - Incoming webhook, for any phone system that can send calls
 - WhatsApp
+- Email (Ascendia)
+- Meetings (Fireflies, or the CallVibe Recorder Chrome extension)
 - Upload Center, to import historical recordings
 
-For full requirements, see [Integrations Overview](./integrations/overview.mdx).
+For full requirements, see [Integrations Overview](./integrations/overview.mdx). For each channel, see [Channels](/docs/category/channels).
 
 ## 3. Start Worker
 
@@ -42,7 +44,7 @@ After credentials are saved:
 
 :::tip
 
-The worker starts only when at least one provider is configured, so complete step 2 before starting it.
+The worker starts only when at least one provider is configured, so complete step 2 before starting it. It is needed for calls from a phone provider. WhatsApp, email, and meetings do not need it.
 
 :::
 
@@ -52,6 +54,7 @@ The worker starts only when at least one provider is configured, so complete ste
 - Open Calls and verify recent records
 - Open Overview and confirm summary metrics
 - Open Outlook and Intelligence for trends and quality scores
+- Open WhatsApp, Email, and Meetings to check those channels
 
 ## 5. Invite Team Members
 

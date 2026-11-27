@@ -22,13 +22,6 @@ The CallVibe backend has endpoints for auth, calls, contacts, analytics, integra
 - **WhatsApp:** chats, messages, stats, analyze
 - **Webhooks:** tenant-scoped endpoints for WhatsApp and for pushing calls
 
-## Authentication Model
-
-- The app uses Supabase session tokens.
-- Authenticated requests include a bearer token.
-- The backend works out your tenant and role from the token.
-- Worker start and stop, and other settings changes, need an owner (admin) account.
-
 ## Data Health Endpoint
 
 `GET /api/v2/data-health` reports whether calls are arriving. It powers the Data health panel and the top bar pill. See [Data Health](../integrations/overview.mdx#data-health).

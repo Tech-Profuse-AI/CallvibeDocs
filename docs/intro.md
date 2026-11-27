@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
 title: Welcome
-description: CallVibe documentation hub for onboarding users, connecting call and WhatsApp integrations, configuring admin settings, and troubleshooting operations.
+description: CallVibe documentation hub for onboarding users, connecting your channels (calls, WhatsApp, email, and meetings), configuring admin settings, and troubleshooting operations.
 ---
 
 # CallVibe Documentation
 
-CallVibe helps your team capture calls and WhatsApp conversations, analyze sentiment and intent, and drive faster follow-ups.
+CallVibe helps your team capture calls, WhatsApp conversations, emails, and meetings, analyze sentiment and intent, and drive faster follow-ups.
 
 Use this portal to:
 
 - Onboard users and configure roles
-- Connect provider integrations
+- Connect your channels: calls, WhatsApp, email, and meetings
 - Understand platform navigation and workflows
 - Configure notifications and customer rules
 - Troubleshoot common operational issues

@@ -1,0 +1,52 @@
+---
+sidebar_position: 9
+title: Callyzer
+description: Connect Callyzer to CallVibe — generate an API Access Key from Connectors → API & Webhook, save it, start the worker, and validate call ingestion.
+---
+
+# Callyzer Integration
+
+## Required Credentials
+
+- API Access Key
+
+## Steps to Get Credentials
+
+1. Sign in to Callyzer at [api1.callyzer.co/login](https://api1.callyzer.co/login) as an admin user.
+2. From the dashboard, navigate to:
+   **Connectors → API & Webhook → API Config**
+3. Generate the API Access Key and copy it.
+
+## Setup
+
+1. Open Settings > Integrations.
+2. Select Callyzer.
+3. Enter API Access Key.
+4. Click Connect.
+5. Start worker.
+
+<ThemedScreenshot alt="Settings page" light="/img/settings-light.JPG" dark="/img/settings-dark.JPG" />
+
+<ThemedScreenshot
+  alt="Callyzer connection"
+  light="/img/callyzer-light.jpg"
+  dark="/img/callyzer-dark.jpg"
+/>
+
+## Validation
+
+:::tip
+
+- Callyzer status shows Connected.
+- Worker remains running.
+- Call ingestion is visible in Calls.
+- The Data health panel shows this provider as Receiving. A Connected card only means credentials are saved. See [Data Health](../overview.mdx#data-health).
+
+:::
+
+<ThemedScreenshot
+  alt="After connection"
+  light="/img/callyzer-after-connection-light.jpg"
+  dark="/img/callyzer-after-connection-dark.jpg"
+  width={200}
+/>

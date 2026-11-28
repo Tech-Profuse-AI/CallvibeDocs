@@ -1,25 +1,29 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Daily Workflows
+description: Daily CallVibe workflows for sales managers, team leads, and admins — reviewing dashboards, call summaries, analytics, action items, and worker health.
 ---
 
 # Daily Workflows
 
 ## Sales or Ops Manager
 
-1. Open Dashboard for trend changes.
-2. Review missed callbacks and action items.
-3. Drill into Analytics for sentiment or category spikes.
+1. Open Overview for rate and volume changes.
+2. Review open Follow-ups, including missed callbacks, and chats or emails waiting for a reply.
+3. Open Outlook for patterns across a period, or Intelligence for call quality scores.
 4. Assign follow-up priorities.
 
 ## Team Lead
 
 1. Open Calls and filter by date and agent.
 2. Review call summaries and customer context.
-3. Use Recap and Analytics for coaching signals.
+3. Use Intelligence and Performance for coaching signals.
+4. Use Ask to query the assistant from where you are.
+5. Open WhatsApp and Email and look for conversations where the customer is waiting for a reply.
+6. Open Meetings to review key points and action items.
 
 ## Admin
 
-1. Check worker status and integration health.
-2. Review pending invites and user mappings.
+1. Check the Data health pill and the Data health panel in Integrations, plus worker status.
+2. Review pending invites and agent-name mappings in Team & access.
 3. Confirm notification schedules and delivery setup.

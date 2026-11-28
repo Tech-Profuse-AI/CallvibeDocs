@@ -1,0 +1,60 @@
+---
+sidebar_position: 8
+title: RingCentral
+description: Connect RingCentral to CallVibe — register an app in the Developer Console, download the Credentials JSON for Client ID, Token, and JWT, then connect.
+---
+
+# RingCentral Integration
+
+## Required Credentials
+
+- Client ID
+- Client Token
+- JWT Token
+
+## Steps to Get Credentials
+
+1. **Sign in to the RingCentral Developer Console** as an administrator at [developers.ringcentral.com](https://developers.ringcentral.com/).
+
+2. **Navigate to your apps** — from the top navigation, go to:
+   **Console → Apps**
+
+3. **Register a new app** — if you haven't created an app yet, click **Register App** and complete the registration form to enable API access.
+
+4. **Open your app** — once the app is created (or if it already exists), click on the app name to open its details page.
+
+5. **Download the Credentials JSON file** — on the app details page, locate the option to download the **Credentials JSON** file. This file contains all the required credentials including the **Client ID**, **Client Token**, and **JWT Token**. Copy these values and use them during the CallVibe integration setup.
+
+## Setup
+
+1. Open Settings > Integrations.
+2. Select RingCentral.
+3. Enter Client ID, Client Token, and JWT Token.
+4. Click Connect.
+5. Start worker.
+
+<ThemedScreenshot alt="Settings page" light="/img/settings-light.JPG" dark="/img/settings-dark.JPG" />
+
+<ThemedScreenshot
+  alt="Ringcentral connection"
+  light="/img/ringcentral-light.JPG"
+  dark="/img/ringcentral-dark.JPG"
+/>
+
+## Validation
+
+:::tip
+
+- Card status shows Connected.
+- Worker remains running.
+- Call ingestion is visible in Calls.
+- The Data health panel shows this provider as Receiving. A Connected card only means credentials are saved. See [Data Health](../overview.mdx#data-health).
+
+:::
+
+<ThemedScreenshot
+  alt="After connection"
+  light="/img/ringcentral-after-connection-light.JPG"
+  dark="/img/ringcentral-after-connection-dark.JPG"
+  width={200}
+/>

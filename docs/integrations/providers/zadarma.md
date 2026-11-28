@@ -1,0 +1,57 @@
+---
+sidebar_position: 7
+title: Zadarma
+description: Connect Zadarma to CallVibe — request API access, confirm by email to reveal your API key and secret, save them, and validate calls appear.
+---
+
+# Zadarma Integration
+
+## Required Credentials
+
+- API key
+- API secret
+
+## Steps to Get Credentials
+
+1. **Sign in to your Zadarma admin account** at [my.zadarma.com](https://my.zadarma.com/). 
+
+2. **Navigate to the API keys section** — from the dashboard, go to:
+   **Settings → Integrations and API → Keys and API**
+
+3. **Send an API access request** — on the Keys and API page, click the button to send a request. Zadarma will send an email to your registered email address containing a confirmation link.
+
+4. **Open the confirmation link** from your email. This will take you to a page where your **API key** and **API secret** are displayed. Copy both values and keep them safe — you will need them during the CallVibe integration setup.
+
+## Setup
+
+1. Open Settings > Integrations.
+2. Select Zadarma.
+3. Enter API key and API secret.
+4. Click Connect.
+5. Start worker.
+
+<ThemedScreenshot alt="Settings page" light="/img/settings-light.JPG" dark="/img/settings-dark.JPG" />
+
+<ThemedScreenshot
+  alt="Zadarma connection"
+  light="/img/zadarma-light.JPG"
+  dark="/img/zadarma-dark.JPG"
+/>
+
+## Validation
+
+:::tip
+
+- Card status shows Connected.
+- Worker remains running.
+- Call ingestion is visible in Calls.
+- The Data health panel shows this provider as Receiving. A Connected card only means credentials are saved. See [Data Health](../overview.mdx#data-health).
+
+:::
+
+<ThemedScreenshot
+  alt="After connection"
+  light="/img/zadarma-after-connection-light.JPG"
+  dark="/img/zadarma-after-connection-dark.JPG"
+  width={200}
+/>
